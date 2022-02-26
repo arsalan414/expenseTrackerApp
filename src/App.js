@@ -13,7 +13,6 @@ import {GlobalProvider} from "./context/GlobalState";
 function App() {
   return (
     <GlobalProvider>
-      <h1>Hello world</h1>
       <Expense />
       <div className="container">
         <Balance />
